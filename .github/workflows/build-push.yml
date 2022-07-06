@@ -28,5 +28,7 @@ jobs:
       - name: Build and push image
         uses: jupyterhub/repo2docker-action@master
         with:
+          DOCKER_USERNAME: iameskild
+          DOCKER_PASSWORD: ${{ secrets.GH_TOKEN }}
           DOCKER_REGISTRY: ${{ env.REGISTRY }}
           IMAGE_NAME: ${{ env.IMAGE_NAME }}
