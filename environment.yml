@@ -25,9 +25,7 @@ dependencies:
 - folium
 - fsspec
 - gcsfs
-- gdal
 - geolinks
-- geopandas
 - geopy
 - geoviews>1.9.0
 - graphviz
@@ -43,7 +41,6 @@ dependencies:
 - intake-stac
 - intake-xarray
 - ipykernel
-- ipyleaflet
 - ipywidgets
 - isort
 - jinja2
@@ -90,12 +87,10 @@ dependencies:
 - pyyaml
 - python-gist
 - qhub-dask ==0.4.3
-- rasterio
 - rechunker
 - requests
 - rich
 - rio-cogeo
-- rioxarray
 - s3fs
 - sat-search
 - sat-stac
@@ -112,7 +107,6 @@ dependencies:
 - wgrib2
 - xagg
 - xarray-spatial
-- xarray_leaflet
 - xclim
 - xesmf
 - xoak
