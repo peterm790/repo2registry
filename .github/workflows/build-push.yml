@@ -5,7 +5,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: iameskild/ogc-demo
+  IMAGE_NAME: peterm790/pangeo_kerchunk
 
 jobs:
   build-and-push-image:
@@ -28,7 +28,7 @@ jobs:
       - name: Build and push image
         uses: jupyterhub/repo2docker-action@master
         with:
-          DOCKER_USERNAME: iameskild
+          DOCKER_USERNAME: peterm790
           DOCKER_PASSWORD: ${{ secrets.GH_TOKEN }}
           DOCKER_REGISTRY: ${{ env.REGISTRY }}
           IMAGE_NAME: ${{ env.IMAGE_NAME }}
