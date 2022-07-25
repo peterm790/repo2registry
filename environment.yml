@@ -52,7 +52,6 @@ dependencies:
 - jupyterlab_code_formatter
 - jupytext
 - jq
-- kerchunk
 - leafmap
 - lxml
 - lz4
@@ -126,3 +125,4 @@ dependencies:
 - pip:
   - noaa-coops
   - kbatch
+  - git+https://github.com/fsspec/kerchunk.git
