@@ -5,7 +5,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: peterm790/pangeo_kerchunk
+  IMAGE_NAME: peterm790/pangeo
 
 jobs:
   build-and-push-image:
