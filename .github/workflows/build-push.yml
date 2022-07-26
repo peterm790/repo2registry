@@ -29,6 +29,6 @@ jobs:
         uses: jupyterhub/repo2docker-action@master
         with:
           DOCKER_USERNAME: peterm790
-          DOCKER_PASSWORD: ${{ secrets.DOCKER_KEY }}
+          DOCKER_PASSWORD: ${{ secrets.GHCR_TOKEN }}
           DOCKER_REGISTRY: ${{ env.REGISTRY }}
           IMAGE_NAME: ${{ env.IMAGE_NAME }}
