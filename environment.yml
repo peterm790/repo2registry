@@ -15,5 +15,6 @@ dependencies:
   - yaml
   - zstd
   - kerchunk
+  - adlfs
   - pip:
     - git+https://github.com/fsspec/kerchunk.git
