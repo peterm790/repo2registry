@@ -4,14 +4,8 @@ channels:
 dependencies:
   - fsspec
   - ujson
-  - datetime
   - dask
-  - dask_gateway
-  - aws-c-event-stream
   - azure-core
-  - azure-datalake-store
-  - azure-identity
-  - azure-storage-blob
   - ipython
   - jinja2
   - papermill
