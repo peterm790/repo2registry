@@ -1,0 +1,25 @@
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - fsspec
+  - ujson
+  - datetime
+  - dask
+  - dask_gateway
+  - aws-c-event-stream
+  - azure-core
+  - azure-datalake-store
+  - azure-identity
+  - azure-storage-blob
+  - ipython
+  - jinja2
+  - papermill
+  - pip
+  - qhub-dask
+  - s3fs
+  - yaml
+  - zstd
+  - kerchunk
+  - pip:
+    - git+https://github.com/fsspec/kerchunk.git
