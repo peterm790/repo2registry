@@ -1,11 +1,11 @@
-name: Build and push image
+kname: Build and push image
 
 on:
   workflow_dispatch:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: peterm790/pangeo
+  IMAGE_NAME: peterm790/kerchunk
 
 jobs:
   build-and-push-image:
