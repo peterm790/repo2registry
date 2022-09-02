@@ -16,5 +16,8 @@ dependencies:
   - zstd
   - kerchunk
   - adlfs
+  - dask
+  - os
+  - dask_gateway
   - pip:
     - git+https://github.com/fsspec/kerchunk.git
