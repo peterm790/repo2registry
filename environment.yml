@@ -1,0 +1,22 @@
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - fsspec
+  - ujson
+  - dask
+  - azure-core
+  - ipython
+  - jinja2
+  - papermill
+  - pip
+  - qhub-dask
+  - s3fs
+  - yaml
+  - zstd
+  - kerchunk
+  - adlfs
+  - dask
+  - cfgrib
+  - pip:
+    - git+https://github.com/fsspec/kerchunk.git
